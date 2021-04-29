@@ -1,0 +1,11 @@
+.contact {
+  position: relative;
+
+  &__flex {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25%;
+  }
+}

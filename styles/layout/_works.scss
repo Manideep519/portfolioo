@@ -1,0 +1,21 @@
+.works {
+  position: relative;
+
+  &__flex {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 25%;
+  }
+
+  &__list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+
+    li {
+      font-size: 30px;
+    }
+  }
+}

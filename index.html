@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manideep | </title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
+
+</head>
+
+<body>
+
+  <div class="noise"></div>
+
+  <div class="locomotive-container" data-scroll-container>
+
+    <div class="header__menu-overlay">
+      <div class="container">
+        <ul class="menu">
+          <li class="menu__links"><a href="index.html" class="magic-hover magic-hover__square">Home</a></li>
+          <li class="menu__links"><a href="index.html#about" class="magic-hover magic-hover__square">About</a></li>
+          <li class="menu__links"><a href="index.html#works" class="magic-hover magic-hover__square">Works</a></li>
+          <li class="menu__links"><a href="index.html#contact" class="magic-hover magic-hover__square">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="container">
+        <div class="header__flex">
+          <div class="logo"><a class="magic-hover magic-hover__square" href="index.html">MD</a></div>
+          <div class="menu-icon magic-hover magic-hover__square">
+            <span class="span span--1"></span>
+            <span class="span span--2"></span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+    <main data-scroll-container>
+
+      <section data-scroll-section class="landing-page" id="landing-page">
+        <div class="container">
+          <div class="landing-page__flex">
+            <div class="landing-page__text">
+
+              <h1 data-scroll data-scroll-speed="5">
+                <span class="landing-page__text--greeting">Hello, I'm</span>
+                <br>
+                <span class="landing-page__text--name">Manideep</span>
+                <br>
+              </h1>
+              <h2 class="landing-page__text--work">Full Stack Developer</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about-us section__number section__number--2" id="about" data-scroll-section>
+        <div class="container">
+          <div class="about-us__flex">
+            <h2 class="heading" data-scroll data-scroll-speed="1">About me</h2>
+            <p class="text" data-scroll data-scroll-speed="1">I design and develop responsive and stunning websites for
+              your business. I also develop web apps using React, Next.js, Node.js and Firebase.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="works section__number section__number--3" id="works" data-scroll-section>
+        <div class="container">
+          <div class="works__flex">
+            <h2 class="heading" data-scroll data-scroll-speed="1">My works & <br> projects</h2>
+            <div class="works__projects">
+              <div class="works__project">
+                <img src="" alt="">
+              </div>
+              <div class="works__project"></div>
+              <div class="works__project"></div>
+              <div class="works__project"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact section__number section__number--4" id="contact" data-scroll-section>
+        <div class="container">
+          <div class="contact__flex">
+            <h2 class="heading" data-scroll data-scroll-speed="1">Contact me</h2>
+
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js"
+    integrity="sha512-6ORWJX/LrnSjBzwefdNUyLCMTIsGoNP6NftMy2UAm1JBm6PRZCO1d7OHBStWpVFZLO+RerTvqX/Z9mBFfCJZ4A=="
+    crossorigin="anonymous"></script>
+  <script src="js/vendors/locomotive.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
+    integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
+    crossorigin="anonymous"></script>
+  <script src="js/vendors/magic_mouse.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
