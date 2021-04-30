@@ -1,0 +1,25 @@
+.landing-page {
+  &__flex {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+
+  &__text {
+    font-size: 36px;
+
+    @include respond-md {
+      font-size: 50px;
+    }
+
+    &--work {
+      font-size: 20px;
+      margin-top: 10px;
+
+      @include respond-md {
+        font-size: 50px;
+        margin: 0;
+      }
+    }
+  }
+}

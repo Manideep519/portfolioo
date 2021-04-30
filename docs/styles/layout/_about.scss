@@ -1,0 +1,14 @@
+.about-us {
+  position: relative;
+
+  &__flex {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+
+    @include respond-md {
+      margin-left: 25%;
+    }
+  }
+}

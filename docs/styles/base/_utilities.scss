@@ -1,0 +1,25 @@
+$sm: 567px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+
+@mixin respond-sm {
+  @media only screen and (min-width: $sm) {
+    @content;
+  }
+}
+@mixin respond-md {
+  @media only screen and (min-width: $md) {
+    @content;
+  }
+}
+@mixin respond-lg {
+  @media only screen and (min-width: $lg) {
+    @content;
+  }
+}
+@mixin respond-xl {
+  @media only screen and (min-width: $xl) {
+    @content;
+  }
+}
