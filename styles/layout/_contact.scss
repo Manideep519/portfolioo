@@ -3,9 +3,31 @@
 
   &__flex {
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     flex-direction: column;
     justify-content: center;
-    margin-left: 25%;
+
+    @include respond-md {
+      margin-left: 25%;
+    }
+
+    img {
+      width: 100%;
+      max-width: 20px;
+      margin: 20px;
+
+      @include respond-md {
+        max-width: 40px;
+      }
+    }
+    a {
+      display: flex;
+      align-items: center;
+      font-size: 18px;
+
+      @include respond-md {
+        font-size: 30px;
+      }
+    }
   }
 }

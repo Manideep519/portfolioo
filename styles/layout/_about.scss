@@ -3,9 +3,12 @@
 
   &__flex {
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
     flex-direction: column;
     justify-content: center;
-    margin-left: 25%;
+
+    @include respond-md {
+      margin-left: 25%;
+    }
   }
 }

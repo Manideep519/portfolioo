@@ -1,5 +1,7 @@
 .header {
-  position: relative;
+  position: fixed;
+  width: 100%;
+
   z-index: 2;
   &__flex {
     display: flex;
@@ -26,7 +28,7 @@
     .menu-icon {
       display: flex;
       flex-direction: column;
-      padding: 10px;
+      // padding: 10px;
       transition: all 0.3s ease-out;
       cursor: pointer;
 
@@ -81,10 +83,19 @@
       &__links {
         color: $white;
         text-transform: uppercase;
-        font-size: 120px;
         font-weight: bold;
         line-height: 1;
         padding: 10px;
+        font-size: 60px;
+
+        @include respond-md {
+          font-size: 80px;
+        }
+
+        &:hover {
+          color: $black;
+          text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+        }
       }
     }
   }

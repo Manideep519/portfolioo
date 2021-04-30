@@ -17,38 +17,40 @@
   <div class="noise"></div>
 
   <div class="locomotive-container" data-scroll-container>
-
+    <!-- menu overlay -->
     <div class="header__menu-overlay">
       <div class="container">
         <ul class="menu">
-          <li class="menu__links"><a href="index.html" class="magic-hover magic-hover__square">Home</a></li>
-          <li class="menu__links"><a href="index.html#about" class="magic-hover magic-hover__square">About</a></li>
-          <li class="menu__links"><a href="index.html#works" class="magic-hover magic-hover__square">Works</a></li>
-          <li class="menu__links"><a href="index.html#contact" class="magic-hover magic-hover__square">Contact</a></li>
+          <li class="menu__links"><a href="index.html">Home</a></li>
+          <li class="menu__links"><a href="index.html#about">About</a></li>
+          <li class="menu__links"><a href="index.html#works">Works</a></li>
+          <li class="menu__links"><a href="index.html#contact">Contact</a></li>
         </ul>
       </div>
     </div>
-
+    <!-- menu overlay -->
+    <!-- header -->
     <header class="header">
       <div class="container">
         <div class="header__flex">
-          <div class="logo"><a class="magic-hover magic-hover__square" href="index.html">MD</a></div>
-          <div class="menu-icon magic-hover magic-hover__square">
+          <div class="logo"><a href="index.html">MD</a></div>
+          <div class="menu-icon">
             <span class="span span--1"></span>
             <span class="span span--2"></span>
           </div>
         </div>
       </div>
     </header>
+    <!-- header -->
 
 
-    <main data-scroll-container>
+    <main>
 
+      <!-- landing page -->
       <section data-scroll-section class="landing-page" id="landing-page">
         <div class="container">
           <div class="landing-page__flex">
             <div class="landing-page__text">
-
               <h1 data-scroll data-scroll-speed="5">
                 <span class="landing-page__text--greeting">Hello, I'm</span>
                 <br>
@@ -60,43 +62,102 @@
           </div>
         </div>
       </section>
+      <!-- landing page -->
 
+      <!-- about -->
       <section class="about-us section__number section__number--2" id="about" data-scroll-section>
         <div class="container">
           <div class="about-us__flex">
-            <h2 class="heading" data-scroll data-scroll-speed="1">About me</h2>
-            <p class="text" data-scroll data-scroll-speed="1">I design and develop responsive and stunning websites for
+            <h2 class="heading">About me</h2>
+            <p class="text">I design and develop responsive and stunning websites for
               your business. I also develop web apps using React, Next.js, Node.js and Firebase.
             </p>
           </div>
         </div>
       </section>
+      <!-- about -->
 
+      <!-- works -->
       <section class="works section__number section__number--3" id="works" data-scroll-section>
         <div class="container">
           <div class="works__flex">
-            <h2 class="heading" data-scroll data-scroll-speed="1">My works & <br> projects</h2>
+            <h2 class="heading">My works & <br> projects</h2>
             <div class="works__projects">
               <div class="works__project">
-                <img src="" alt="">
+                <img src="assets/projects/stopla.png" alt="">
+                <div class="works__project__description">
+                  <h6>Stopla</h6>
+                  <p>Developed a static website for a agritech based startup, with php mailing system. </p>
+                  <span>HTML, CSS, JavaScript, Jquery, PHP</span>
+                  <a href="https://stopla.in/" target="_blank">
+                    visit site
+                  </a>
+                </div>
               </div>
-              <div class="works__project"></div>
-              <div class="works__project"></div>
-              <div class="works__project"></div>
+              <div class="works__project">
+                <img src="assets/projects/navavadhuv.jpg" alt="">
+                <div class="works__project__description">
+                  <h6>Navavadhuv</h6>
+                  <p>Developed a static website for a bridal management client.</p>
+                  <span>HTML, CSS, JavaScript, Jquery, PHP</span>
+                  <a href="https://navavadhuv.com/" target="_blank">
+                    visit site
+                  </a>
+                </div>
+              </div>
+              <div class="works__project">
+                <img src="assets/projects/covid-19_app.png" alt="">
+                <div class="works__project__description">
+                  <h6>Covid-19 tracker</h6>
+                  <p>A simple covid-19 tracker made using native JavaScript fetch api.
+                  </p>
+                  <span>HTML, CSS, JavaScript, API</span>
+                  <a href="https://manideep519.github.io/covid-19-tracker/" target="_blank">
+                    visit site
+                  </a>
+                </div>
+              </div>
+              <div class="works__project">
+                <img src="assets/projects/weather_app.png" alt="">
+                <div class="works__project__description">
+                  <h6>Simple Weather app</h6>
+                  <p>A simple weather app made using native JavaScript fetch api.</p>
+                  <span>HTML, CSS, JavaScript, API</span>
+                  <a href="https://manideep519.github.io/weatherApp/" target="_blank">
+                    visit site
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
+      <!-- works -->
+
+      <!-- contact -->
       <section class="contact section__number section__number--4" id="contact" data-scroll-section>
         <div class="container">
           <div class="contact__flex">
-            <h2 class="heading" data-scroll data-scroll-speed="1">Contact me</h2>
-
+            <h2 class="heading ">Contact me</h2>
+            <a href="mailto:manideepyadav359@gmail.com">
+              <img src="assets/svg/mail.svg" alt="">
+              manideepyada359@gmail.com</a>
+            <a href="https://api.whatsapp.com/send?phone=917674062837">
+              <img src="assets/svg/whatsapp.svg" alt="">
+              +91 76740 62837</a>
+            <a href="https://www.linkedin.com/in/manideep-yadav/" target="_blank">
+              <img src="assets/svg/linkedin.svg" alt="">
+              LinkedIn
+            </a>
           </div>
         </div>
       </section>
+      <!-- contact -->
 
     </main>
+    <footer class="footer">
+      <p class="footer__text">Manideep &copy; 2021</p>
+    </footer>
   </div>
 
 
@@ -107,7 +168,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
     integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
     crossorigin="anonymous"></script>
-  <script src="js/vendors/magic_mouse.js"></script>
+
   <script src="js/app.js"></script>
 </body>
 

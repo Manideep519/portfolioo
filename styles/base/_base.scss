@@ -27,6 +27,7 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
 }
 
 .container {
@@ -43,7 +44,7 @@ a {
     line-height: 1;
     top: 0;
     left: 0;
-    font-size: 300px !important;
+    font-size: 100px;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: $white;
     cursor: pointer;
@@ -52,6 +53,10 @@ a {
     color: transparent;
     -webkit-text-stroke-color: $white;
     opacity: 0.2;
+
+    @include respond-md {
+      font-size: 300px;
+    }
   }
 }
 
@@ -80,14 +85,14 @@ a {
 }
 
 .noise::before {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  content: "";
-  opacity: 0.05;
-  z-index: 1000;
-  pointer-events: none;
-  background-image: url(../assets/noise.gif);
+  // position: fixed;
+  // top: 0;
+  // left: 0;
+  // width: 100vw;
+  // height: 100vh;
+  // content: "";
+  // opacity: 0.01;
+  // z-index: 1000;
+  // pointer-events: none;
+  // background-image: url(../assets/noise.gif);
 }

@@ -1,7 +1,7 @@
-@import "vendors/locomotive";
-@import "vendors/magic-mouse";
-
 @import "base/variables";
+
+@import "vendors/locomotive";
+
 @import "base/utilities";
 @import "base/typography";
 @import "base/base";
@@ -11,3 +11,4 @@
 @import "layout/about";
 @import "layout/works";
 @import "layout/contact";
+@import "layout/footer";
